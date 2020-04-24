@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // 与 Vue 的浏览器支持保持一致
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strictNullChecks": true,
+  },
+  "include": [
+    // 导入ts声明
+    "node_modules/vue-tsx-support/enable-check.d.ts", 
+    "./src/**/*",
+  ]
+}

@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
 
 module.exports = {
-  module: "development",
   entry: {
     // 配置入口文件
     main: path.resolve(__dirname, "../src/main.js"),
@@ -24,7 +23,7 @@ module.exports = {
     contentBase: path.resolve(__dirname, "../dist"),
   },
   resolve: {
-    extensions: [".js",".tsx", ".ts"],
+    extensions: [".js", ".tsx", ".ts"],
   },
   module: {
     rules: [

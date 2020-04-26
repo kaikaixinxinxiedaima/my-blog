@@ -1,20 +1,20 @@
-import App from "../App";
+import App from '../App'
 
 export const routes = [
   {
-    name: "common",
-    path: "/common",
+    name: 'common',
+    path: '/common',
     component: App,
     children: [
       {
-        name: "common:log",
-        path: "log",
+        name: 'common:log',
+        path: 'log',
         component: App,
         children: undefined,
         meta: {
-          title: "更新日志",
+          title: '更新日志',
         },
       },
     ],
   },
-];
+]
